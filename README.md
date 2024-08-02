@@ -83,21 +83,4 @@
 - **Expense Inputs**: Ensure that `amount`, `description`, `splitMethod`, and `sharedWith` fields are provided and valid.
   - For `splitMethod: percentage`, ensure the total percentage adds up to 100%.
 
-## Code Comments
 
-The codebase includes clear and concise comments to describe the functionality of different sections and functions. Each route and middleware file contains comments explaining the purpose and expected input/output of the endpoints and middleware functions.
-
-### Example Code Comments
-
-```js
-// models/User.js
-/**
- * UserSchema defines the schema for user documents in the MongoDB database.
- * Fields:
- *  - username: Unique username for the user.
- *  - password: Hashed password for authentication.
- *  - email: Unique email address for the user.
- *  - name: Full name of the user.
- *  - mobileNumber: Mobile number of the user.
- */
-```
